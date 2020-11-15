@@ -9,24 +9,25 @@ namespace pek
     class Pekseg
     {
         string nev;
-        List<Pekaru> termekek;
-        DateTime alapitva;
+        List<Pekaru> termekek = new List<Pekaru>();
+        DateTime alapitva = DateTime.Now;
 
-        public Pekseg(string nev, List<Pekaru> termekek, DateTime alapitva)
+        public Pekseg(string nev)
         {
             this.Nev = nev;
-            this.Termekek = termekek;
-            this.Alapitva = alapitva;
+            
         }
 
         public string Nev { get => nev; set => nev = value; }
         public DateTime Alapitva { get => alapitva; set => alapitva = value; }
-        internal List<Pekaru> Termekek { get => termekek; set => termekek = value; }
+        internal List<Pekaru> Termekek { get => termekek;}
 
         public override string ToString()
         {
             string s = this.nev + " - " + this.alapitva;
             return s;
         }
+
+       
     }
 }

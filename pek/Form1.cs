@@ -31,5 +31,26 @@ namespace pek
         {
             
         }
+
+        private void btn_hozzaadas_1_Click(object sender, EventArgs e)
+        {
+            Pekaru pekaru = new Pekaru(txtbox__nev.Text, Convert.ToInt32(txtbox_ar.Text), chckbox_laktozmentes.Checked ? true : false);
+            listbox_pekaruk.Items.Add(pekaru);
+            
+        }
+
+        private void btn_hozzaadas_2_Click(object sender, EventArgs e)
+        {
+            Pekseg pekseg = new Pekseg(txtbox_pekseg.Text);
+            listbox_peksegek.Items.Add(pekseg);
+        }
+
+        private void btn_plusz_Click(object sender, EventArgs e)
+        {
+            if (listbox_pekaruk.SelectedItem != null && listbox_peksegek.SelectedItem != null)
+            {
+                listbox_pekaru_2.Items.Add(listbox_pekaruk.SelectedItem);
+            }
+        }
     }
 }

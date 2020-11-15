@@ -106,7 +106,6 @@
             this.txtbox__nev.Name = "txtbox__nev";
             this.txtbox__nev.Size = new System.Drawing.Size(100, 22);
             this.txtbox__nev.TabIndex = 1;
-            this.txtbox__nev.Text = "Kérem a nevet";
             // 
             // txtbox_ar
             // 
@@ -114,7 +113,6 @@
             this.txtbox_ar.Name = "txtbox_ar";
             this.txtbox_ar.Size = new System.Drawing.Size(100, 22);
             this.txtbox_ar.TabIndex = 2;
-            this.txtbox_ar.Text = "Kérem az árát";
             // 
             // chckbox_laktozmentes
             // 
@@ -134,6 +132,7 @@
             this.btn_hozzaadas_1.TabIndex = 4;
             this.btn_hozzaadas_1.Text = "Hozzáadás";
             this.btn_hozzaadas_1.UseVisualStyleBackColor = true;
+            this.btn_hozzaadas_1.Click += new System.EventHandler(this.btn_hozzaadas_1_Click);
             // 
             // listbox_pekaruk
             // 
@@ -169,6 +168,7 @@
             this.btn_hozzaadas_2.TabIndex = 8;
             this.btn_hozzaadas_2.Text = "Hozzáadás";
             this.btn_hozzaadas_2.UseVisualStyleBackColor = true;
+            this.btn_hozzaadas_2.Click += new System.EventHandler(this.btn_hozzaadas_2_Click);
             // 
             // listbox_peksegek
             // 
@@ -196,6 +196,7 @@
             this.btn_plusz.TabIndex = 11;
             this.btn_plusz.Text = "+";
             this.btn_plusz.UseVisualStyleBackColor = true;
+            this.btn_plusz.Click += new System.EventHandler(this.btn_plusz_Click);
             // 
             // Form1
             // 

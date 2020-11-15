@@ -25,7 +25,7 @@ namespace pek
 
         public override string ToString()
         {
-            string s = this.nev+"("+this.ar+"Ft/db)";
+            string s = this.nev+" ("+this.ar+"Ft/db)";
             return s;
         }
     }
