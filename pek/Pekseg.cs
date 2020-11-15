@@ -25,7 +25,7 @@ namespace pek
 
         public override string ToString()
         {
-            string s = nev + " - " + alapitva;
+            string s = this.nev + " - " + this.alapitva;
             return s;
         }
     }

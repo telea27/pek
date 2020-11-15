@@ -143,6 +143,7 @@
             this.listbox_pekaruk.Name = "listbox_pekaruk";
             this.listbox_pekaruk.Size = new System.Drawing.Size(509, 132);
             this.listbox_pekaruk.TabIndex = 5;
+            this.listbox_pekaruk.SelectedIndexChanged += new System.EventHandler(this.listbox_pekaruk_SelectedIndexChanged);
             // 
             // peksegek
             // 
