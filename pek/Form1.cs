@@ -52,5 +52,13 @@ namespace pek
                 listbox_pekaru_2.Items.Add(listbox_pekaruk.SelectedItem);
             }
         }
+
+        private void btn_pekaru_torol_Click(object sender, EventArgs e)
+        {
+            if(listbox_pekaruk.SelectedItem!=null)
+            {
+                listbox_pekaruk.Items.Remove(listbox_pekaruk.SelectedItem);
+            }
+        }
     }
 }

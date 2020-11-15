@@ -43,6 +43,7 @@
             this.listbox_peksegek = new System.Windows.Forms.ListBox();
             this.listbox_pekaru_2 = new System.Windows.Forms.ListBox();
             this.btn_plusz = new System.Windows.Forms.Button();
+            this.btn_pekaru_torol = new System.Windows.Forms.Button();
             this.tab_adatok.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -60,6 +61,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.btn_pekaru_torol);
             this.tabPage1.Controls.Add(this.btn_plusz);
             this.tabPage1.Controls.Add(this.listbox_pekaru_2);
             this.tabPage1.Controls.Add(this.listbox_peksegek);
@@ -198,6 +200,16 @@
             this.btn_plusz.UseVisualStyleBackColor = true;
             this.btn_plusz.Click += new System.EventHandler(this.btn_plusz_Click);
             // 
+            // btn_pekaru_torol
+            // 
+            this.btn_pekaru_torol.Location = new System.Drawing.Point(144, 39);
+            this.btn_pekaru_torol.Name = "btn_pekaru_torol";
+            this.btn_pekaru_torol.Size = new System.Drawing.Size(75, 50);
+            this.btn_pekaru_torol.TabIndex = 12;
+            this.btn_pekaru_torol.Text = "Pékáru törlése";
+            this.btn_pekaru_torol.UseVisualStyleBackColor = true;
+            this.btn_pekaru_torol.Click += new System.EventHandler(this.btn_pekaru_torol_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -231,6 +243,7 @@
         private System.Windows.Forms.Button btn_hozzaadas_1;
         private System.Windows.Forms.CheckBox chckbox_laktozmentes;
         private System.Windows.Forms.TextBox txtbox_ar;
+        private System.Windows.Forms.Button btn_pekaru_torol;
     }
 }
 
