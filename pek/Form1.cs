@@ -47,6 +47,7 @@ namespace pek
 
         private void btn_plusz_Click(object sender, EventArgs e)
         {
+            
             if (listbox_pekaruk.SelectedItem != null && listbox_peksegek.SelectedItem != null)
             {
                 listbox_pekaru_2.Items.Add(listbox_pekaruk.SelectedItem);

@@ -217,7 +217,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tab_adatok);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Pékség";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tab_adatok.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
